@@ -1,0 +1,345 @@
+.wd-popup.wd-promo-popup{
+	background-color:#111111;
+	background-image: url(https://www.celurato.com/wp-content/uploads/2025/04/foto-bg-celurato.jpg);
+	background-repeat:no-repeat;
+	background-size:cover;
+	background-position:left center;
+}
+
+.header-banner{
+	background-image: url(https://www.celurato.com/wp-content/uploads/2018/10/background-header3.jpg);
+}
+
+.page-title-default{
+	background-color:rgb(43,43,43);
+	background-image: url(https://www.celurato.com/wp-content/uploads/2018/10/celularesbaratos.jpg);
+	background-size:cover;
+	background-position:center top;
+}
+
+.footer-container{
+	background-color:#ffffff;
+	background-image: none;
+}
+
+:root{
+--wd-text-font:"Lato", Arial, Helvetica, sans-serif;
+--wd-text-font-weight:400;
+--wd-text-color:#777777;
+--wd-text-font-size:14px;
+}
+:root{
+--wd-title-font:"Poppins", Arial, Helvetica, sans-serif;
+--wd-title-font-weight:600;
+--wd-title-color:#242424;
+}
+:root{
+--wd-entities-title-font:"Poppins", Arial, Helvetica, sans-serif;
+--wd-entities-title-font-weight:500;
+--wd-entities-title-color:#333333;
+--wd-entities-title-color-hover:rgb(51 51 51 / 65%);
+}
+:root{
+--wd-alternative-font:"Lato", Arial, Helvetica, sans-serif;
+}
+:root{
+--wd-widget-title-font:"Poppins", Arial, Helvetica, sans-serif;
+--wd-widget-title-font-weight:600;
+--wd-widget-title-transform:uppercase;
+--wd-widget-title-color:#333;
+--wd-widget-title-font-size:16px;
+}
+:root{
+--wd-header-el-font:"Lato", Arial, Helvetica, sans-serif;
+--wd-header-el-font-weight:700;
+--wd-header-el-transform:uppercase;
+--wd-header-el-font-size:13px;
+}
+:root{
+--wd-primary-color:#ffb801;
+}
+:root{
+--wd-alternative-color:#fbbc34;
+}
+:root{
+--wd-link-color:#333333;
+--wd-link-color-hover:#242424;
+}
+:root{
+--btn-default-bgcolor:#f7f7f7;
+}
+:root{
+--btn-default-bgcolor-hover:#efefef;
+}
+:root{
+--btn-shop-bgcolor:#ffb801;
+}
+:root{
+--btn-shop-bgcolor-hover:#c48a08;
+}
+:root{
+--btn-accent-bgcolor:#ffb801;
+}
+:root{
+--btn-accent-bgcolor-hover:#c48a08;
+}
+:root{
+--notices-success-bg:#459647;
+}
+:root{
+--notices-success-color:#fff;
+}
+:root{
+--notices-warning-bg:#E0B252;
+}
+:root{
+--notices-warning-color:#fff;
+}
+	:root{
+					
+			
+							--wd-form-brd-radius: 0px;
+					
+					--wd-form-brd-width: 2px;
+		
+					--btn-default-color: #333;
+		
+					--btn-default-color-hover: #333;
+		
+					--btn-shop-color: #fff;
+		
+					--btn-shop-color-hover: #fff;
+		
+					--btn-accent-color: #fff;
+		
+					--btn-accent-color-hover: #fff;
+		
+									--btn-default-brd-radius: 0px;
+				--btn-default-box-shadow: none;
+				--btn-default-box-shadow-hover: none;
+				--btn-default-box-shadow-active: none;
+				--btn-default-bottom: 0px;
+			
+			
+			
+					
+					
+							--btn-shop-bottom-active: -1px;
+				--btn-shop-brd-radius: 0.001px;
+				--btn-shop-box-shadow: inset 0 -2px 0 rgba(0, 0, 0, .15);
+				--btn-shop-box-shadow-hover: inset 0 -2px 0 rgba(0, 0, 0, .15);
+			
+			
+					
+									--btn-accent-brd-radius: 0px;
+				--btn-accent-box-shadow: none;
+				--btn-accent-box-shadow-hover: none;
+				--btn-accent-box-shadow-active: none;
+				--btn-accent-bottom: 0px;
+			
+			
+			
+					
+									--wd-sticky-btn-height: 95px;
+					
+					--wd-brd-radius: 0px;
+			}
+
+			@media (max-width: 1024px) {
+			:root {
+				--wd-sticky-btn-height: 95px;
+			}
+		}
+	
+	
+			@media (min-width: 1025px) {
+			.whb-boxed:not(.whb-sticked):not(.whb-full-width) .whb-main-header {
+				max-width: 1192px;
+			}
+		}
+
+		.container {
+			max-width: 1222px;
+		}
+
+		:root{
+			--wd-container-width: 1222px;
+		}
+	
+			@media (min-width: 1222px) {
+			[data-vc-full-width]:not([data-vc-stretch-content]) {
+				padding-left: calc((100vw - 1222px - var(--wd-scroll-w)) / 2);
+				padding-right: calc((100vw - 1222px - var(--wd-scroll-w)) / 2);
+			}
+		}
+	
+	
+			div.wd-popup.wd-promo-popup {
+			max-width: 800px;
+		}
+	
+	
+	
+			.woodmart-woocommerce-layered-nav .wd-scroll-content {
+			max-height: 280px;
+		}
+	
+	
+@font-face {
+	font-weight: normal;
+	font-style: normal;
+	font-family: "woodmart-font";
+	src: url("//www.celurato.com/wp-content/themes/woodmart/fonts/woodmart-font.woff2?v=7.0.4") format("woff2");
+}
+
+/*
+.woodmart-after-add-to-cart {
+    float: right;
+}
+.wd-dropdown-menu.wd-design-sized 
+*/
+.submenuProductos{
+   /* padding: 30px 35px 0 35px;
+    max-width: 400px;*/
+}
+.wd-entry-meta .meta-author {
+
+    display: none;
+}
+.cat-item cat-item-77{
+ display:none;	
+}
+
+/*.woodmart-checkout-steps li {
+    color: #203a4f !important;
+}*/
+
+.error404 .whb-main-header {
+    background: #1c364b;
+}
+
+.whb-main-header {
+    background: #203a4f;
+}
+
+.woodmart-logo img {
+    padding-top: 0;
+}
+
+.whb-general-header-inner {
+    height: 67px;
+}
+
+.page-title {
+    padding-top: 117px !important;
+}
+
+table.shop_attributes {
+    width: 60% !important;
+}
+
+.product-label.new {
+    background-color: #1baac8;
+}
+
+.whb-color-light .navigation-style-default .item-level-0:hover>a {
+    color: rgb(248, 154, 30);
+}
+
+.whb-color-light .woodmart-header-links .item-level-0:hover>a {
+    color: rgb(255, 184, 1);
+}
+
+.area-sidebar-shop .cat-item-77, #woocommerce_product_categories-3 .cat-item-77 {
+    display: none;
+}
+
+.bann-lateral div {
+    padding-bottom: 9px;
+}
+
+
+.whb-color-light:not(.whb-with-bg) {
+    background-color: #1c364b;
+}
+
+.boton-menu {
+    margin-bottom: 5px;
+}
+
+.woodmart-prefooter img {
+    margin-bottom: 24px;
+}
+
+.icons-design-colored .social-whatsapp {
+    background-color: #0dc143;
+}
+
+.product-video-button>a:hover>span {
+    padding-right: 25px;
+    max-width: 280px;
+}
+
+.product-video-button>a {
+    min-width: 134px;
+    background: rgb(181, 2, 2);
+    color: #fff;
+}
+
+.product-video-button>a>span {
+    overflow: initial;
+}
+
+.product-additional-galleries {
+    bottom: -80px;
+}
+
+.product-video-button>a:hover {
+    color: #cfcfcf;
+}
+
+.entry-meta.woodmart-entry-meta, .hovered-social-icons {
+    display: none;
+}
+
+.prefooter .banner-background .wrapper-content-banner, .banner-border .wrapper-content-banner {
+    bottom: 42px;
+}
+
+.caja-whatsapp {
+    position: fixed;
+    bottom: 0;
+    z-index: 5000;
+}
+
+.caja-whatsapp.movil-whatsapp {
+    right: 0;
+    bottom: 20%;
+}
+
+.caja-whatsapp.movil-whatsapp img {
+    width: 112px;
+}
+
+.logo-pay img {
+    width: 40px !important;
+    height: auto !important;
+}
+
+@media only screen and (max-width: 960px) {
+    
+    .caja-whatsapp.escritorio-whatsapp {
+    display: none;
+    }
+    
+    .woodmart-after-add-to-cart {
+    float: initial;
+    }
+}
+
+@media only screen and (min-width: 960px) {
+    
+    .caja-whatsapp.movil-whatsapp {
+    display: none;
+    }
+}
